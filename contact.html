@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Contact</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS\style.css">
+  <style>
+    /*MAIN BODY*/
+    body {
+      background-image: url('https://etchworksdigital.com/wp-content/uploads/2014/04/The-best-top-desktop-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #mycontact-section1 {
+      color: #ffffff;
+      text-align: center;
+      align-items: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    #mycontact-section1 h1{
+      font-size: 50px;
+    }
+    .phone,
+    .email,
+    .address {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 20px;
+    }
+
+    #mycontact-section1 i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    form {
+      padding-bottom: 10%;
+      text-align: center;
+    }
+
+    .form-section1 {
+      float: left;
+      width: 49%;
+    }
+
+    .form-section2 {
+      float: right;
+      width: 49%;
+    }
+
+    label,
+    input[type="submit"] {
+      margin-top: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="phone"] {
+      float: right;
+      padding: 15px;
+      width: 50%;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    input[type="message"] {
+      float: left;
+      text-align: left;
+      padding: 15px;
+      padding-bottom: 135px;
+      width: 45%;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #CF0A0A;
+      width: 20%;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <a href="index.html" class="my-logo">
+      <div id="my-logo">
+        <img src="PICTURES\LOGO.png">
+      </div>
+    </a>
+    <nav class="nav-items">
+      <ul id="navigations">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div style="clear:both"></div>
+  </header>
+  <div id="mycontact-section1">
+    <h1>GET IN TOUCH</h1>
+    <div class="phone">
+      <i class="fas fa-phone"></i>
+      <p>Phone: +6397-7786-2172</p>
+    </div>
+    <div class="email">
+      <i class="fas fa-envelope"></i>
+      <p>Email: <a style="color:red;text-decoration: none;"href="mailto:portuguezjovel6@gmail.com">portuguezjovel6@gmail.com</a></p>
+    </div>
+    <div class="address">
+      <i class="fas fa-map-marker-alt"></i>
+      <p>Address: Zone 4, Bonifacio, San Fernando, Camarines Sur, Philippines</p>
+    </div>
+  </div>
+  <form>
+    <div class="form-section1">
+      <label for="name"></label>
+      <input type="text" placeholder="Your name*">
+      <label for="email"></label>
+      <input type="email" placeholder="Your email*">
+      <label for="subject"></label>
+      <input type="phone" placeholder="Your phone*">
+    </div>
+    <div class="form-section2">
+      <label for="message"></label>
+      <input type="message" placeholder="Your message*"></input>
+    </div>
+    <div style="clear:both"></div>
+    <input type="submit" value="SEND MESSAGE"></input>
+  </form>
+  <footer id="footer">
+    <div id="copy">&copy; 2023 Apprentice Developer</div>
+    <div id="bottom-links">
+      <div id="links">
+        <span>More Info</span>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div id="links">
+        <span>Social Links</span>
+        <a href="https://www.facebook.com/jport546" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UClR8TsB9iIC79MR9qrJLFNQ" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@jportuguezzz?is_from_webapp=1&sender_device=pc" target="_blank"><i
+            class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
